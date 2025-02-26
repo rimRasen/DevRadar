@@ -1,0 +1,15 @@
+.search-container {
+    @apply max-w-2xl mx-auto;
+}
+
+.search-form {
+    @apply flex gap-4;
+}
+
+.search-input {
+    @apply flex-1 px-4 rounded-md border border-gray-300 focus:border-blue-500 focus:ring-1 focus:ring-blue-500 focus:outline-none;
+}
+
+.search-select {
+    @apply px-4 rounded-md border border-gray-300 focus:border-blue-500 focus:ring-1 focus:ring-blue-500 focus:outline-none;
+}

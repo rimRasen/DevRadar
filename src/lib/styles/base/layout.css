@@ -1,0 +1,17 @@
+
+
+.container { 
+    @apply px-4 mx-auto max-w-7xl;
+}
+
+.section { 
+    @apply py-16;
+}
+
+.section-hero {
+    @apply py-24;
+}
+
+.section-content { 
+    @apply mt-12;
+}

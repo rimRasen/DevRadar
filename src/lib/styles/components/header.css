@@ -1,0 +1,35 @@
+.header {
+    @apply bg-white shadow-sm fixed w-full top-0 z-50;
+}
+
+.header-container {
+    @apply container mx-auto px-4;
+}
+
+.header-nav {
+    @apply flex items-center justify-between h-16;
+}
+
+.header-logo {
+    @apply flex items-center space-x-2;
+}
+
+.header-logo-text {
+    @apply text-xl font-bold text-gray-900;
+}
+
+.header-menu {
+    @apply hidden md:flex items-center space-x-8;
+}
+
+.header-link {
+    @apply text-gray-600 hover:text-blue-600 transition-colors;
+}
+
+.header-button {
+    @apply px-5 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors;
+}
+
+.mobile-menu-button {
+    @apply md:hidden p-2 rounded-lg hover:bg-gray-100;
+}

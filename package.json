@@ -17,6 +17,7 @@
 		"@sveltejs/vite-plugin-svelte": "^5.0.0",
 		"@tailwindcss/cli": "^4.0.7",
 		"@tailwindcss/postcss": "^4.0.7",
+		"@types/node": "^22.13.5",
 		"autoprefixer": "^10.4.20",
 		"bootstrap": "^5.3.3",
 		"eslint": "^9.20.1",
